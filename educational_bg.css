@@ -123,4 +123,150 @@ nav ul li a {
     font-size: 14px;
     color: #555;
 }
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 150px;
+        width: 1400px;
+        background-color: #e1bfe4;
+    }
+    
+    .header-container h1 {
+        font-size: 36px;
+        font-weight: 600;
+        position: absolute;
+        left: 20px;
+        top: 35px;
+    }
+      
+    .header-container span {
+        font-weight: normal;
+    }
+      
+    nav ul {
+        font-size: 31px;
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        position: relative;
+        right: -410px;
+        top: 6px;
+    }
+      
+    nav ul li a {
+        text-decoration: none;
+        color: #050505;
+    }
+    
+    .about-me {
+        display: flex;
+        justify-content: center;
+        margin: 144px 100px;
+        height: 1500px;
+        width: 2800px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+      
+    .profile {
+        flex: 1;
+        max-width: 500px;
+        text-align: center;
+        padding: 20px;
+    }
+      
+    .profile .image img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        border: 3px solid #d57ce0;
+        position: relative;
+        top: 138px;
+        left: 40px;
+    }
+      
+    .profile .name {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 10px 0;
+        position: relative;
+        top: 168px;
+        left: 30px;
+    }
+      
+    .profile .course {
+        font-size: 43px;
+        color: #ce64d8;
+        margin: 5px 0;
+        font-weight: bold;
+        position: relative;
+        top: 176px;
+        left: 42px;
+    }
+      
+    .profile .background {
+        font-size: 49px;
+        color: #555;
+        margin-top: 10px;
+        position: relative;
+        top: 199px;
+        left: 58px;
+    }
+      
+    .institute-detail {
+        flex: 2;
+        padding: 20px;
+    }
+      
+    .detail{
+        display: flex;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+      
+    .detail .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 129px;
+        margin-bottom: 73px;
+        position: relative;
+        left: 150px;
+    }
+      
+    .detail .icon img {
+        width: 200px;
+        height: 200px;
+    }
+      
+    .detail .text {
+        margin-left: 266px;
+    }
+      
+    .detail .text h3 {
+        margin: 0;
+        font-size: 39px;
+        color: #333;
+    }
+      
+    .detail .text p {
+        margin: 5px 0 0;
+        font-size: 35px;
+        color: #555;
+    }
+}
   
